@@ -1,0 +1,102 @@
+/** ADD YOUR AWESOME CODES HERE **/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    z-index: 1000;
+}
+
+.main-logo{
+    font-weight: bold !important;
+    font-size: 1.5rem;
+    color: #57ceed;
+}
+.menu-bar a{
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0 5px;
+}
+
+.display-3{
+    font-size: 3.5rem;
+}
+.display-4{
+    font-size: 2.5rem;
+}
+
+.d-icon svg{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.section-padder{
+    margin-top: 7.5rem !important;
+}
+.footer{
+    margin-top: 12.5rem !important;
+}
+
+.inner-section-padder{
+    margin-top: 2rem;
+}
+
+.main-section-links{
+    color: #69cea8;
+}
+
+.m-content .img-fluid{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.m-content{
+    margin-top: 7.5rem !important;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .main-logo{
+        font-size: 4rem;
+    }
+
+    .menu-bar a{
+        font-size: 1.5rem;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .menu-bar a{
+        padding: 0 60px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .section-padder{
+        margin-top: 5rem !important;
+    }
+
+    .display-3{
+        font-size: 1.5rem;
+    }
+    .display-4{
+        font-size: 1rem;
+    }
+
+    .main-section-links{
+        font-size: 1rem;
+    }
+
+    .m-content .img-fluid{
+        width: 100%;
+        height: auto;
+        max-width: 50%;
+    }
+
+    .m-content{
+        margin-top: 0.5rem !important;
+    }
+}
