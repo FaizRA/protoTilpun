@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    <div class="row section-padder">
+    <div class="row section-padder impSection mudah" id="impSection">
         <div class="col-12 col-sm-4 d-flex">
             <img src="img/bgPhone2.png" class="img-fluid py-4 m-auto" alt="">
         </div>
@@ -376,6 +376,17 @@
         } else {
             header.classList.remove("sticky");
         }
+    }
+
+    window.onscroll = function() {activeSection()};
+    function activeSection(){
+        var section = document.getElementById('impSection');
+        var sectionPass = section.offsetTop;
+
+        if (window.pageYOffset > sectionPass) {
+            console.log('a')
+        }
+
     }
 </script>
 </body>
