@@ -39,6 +39,10 @@
     margin-top: 12.5rem !important;
 }
 
+.list-pg .border-bottom{
+    border-color: #00bed3 !important;
+}
+
 .inner-section-padder{
     margin-top: 2rem;
 }
